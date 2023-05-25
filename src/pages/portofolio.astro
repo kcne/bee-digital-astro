@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/sections/Hero.astro';
+import Services from '../components/sections/Services.astro';
+import AboutUs from '../components/sections/AboutUs.astro';
+import Features from '../components/sections/Features.astro';
+import CTA from '../components/sections/CTA.astro';
+import Brands from '../components/sections/Brands.astro';
+import Project from '../components/cards/Project.astro';
+import Container from '../components/shared/Container.astro';
+import Title from '../components/shared/Title.astro';
+import Paragraph from '../components/shared/Paragraph.astro';
+---
+
+<Layout title="Portofolio">
+	<main class="relative pt-24 flex flex-col overflow-hidden pb-24">
+        <Container className={"flex-col lg:flex-row gap-10 lg:gap-12 pt-4"}>
+            <span class="absolute -left-6 md:left-4 top-24 lg:top-28 w-24 h-24 rotate-90 skew-x-12 rounded-3xl bg-green-400 blur-xl opacity-60 lg:opacity-95 lg:block hidden"></span>
+            <span class="absolute right-4 bottom-12 w-24 h-24 rounded-3xl bg-primary blur-xl opacity-80"></span>
+        </div>
+        <span class="w-4/12 lg:w-2/12 aspect-square bg-gradient-to-tr from-primary to-green-400 absolute -top-5 lg:left-0 rounded-full skew-y-12 blur-2xl opacity-40 skew-x-12 rotate-90"></span>
+            <div class="w-full h-full grid gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3 ">
+                <Project title="First Project" description="Atom is a Portfolio HTML Template made with the latest technologies like TailwindCSS, Alpine.JS, among others, and based on a vibrant and creative design." url="" />
+                <Project title="First Project" description="Atom is a Portfolio HTML Template made with the latest technologies like TailwindCSS, Alpine.JS, among others, and based on a vibrant and creative design." url="" />
+                <Project title="First Project" description="Atom is a Portfolio HTML Template made with the latest technologies like TailwindCSS, Alpine.JS, among others, and based on a vibrant and creative design." url="" />
+            </div>
+        </div>
+        </Container>
+	</main>
+</Layout>
