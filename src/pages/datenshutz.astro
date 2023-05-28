@@ -1,0 +1,110 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Project from '../components/cards/Project.astro';
+import Container from '../components/shared/Container.astro';
+---
+
+<Layout title="Portofolio">
+	<main class="relative pt-24 flex flex-col overflow-hidden pb-24">
+        <Container className={"flex-col lg:flex-row gap-10 lg:gap-12 pt-4"}>
+            <span class="absolute -left-6 md:left-4 top-24 lg:top-28 w-24 h-24 rotate-90 skew-x-12 rounded-3xl bg-green-400 blur-xl opacity-60 lg:opacity-95 lg:block hidden"></span>
+            <span class="absolute right-4 bottom-12 w-24 h-24 rounded-3xl bg-primary blur-xl opacity-80"></span>
+        <span class="w-4/12 lg:w-2/12 aspect-square bg-gradient-to-tr from-primary to-green-400 absolute -top-5 lg:left-0 rounded-full skew-y-12 blur-2xl opacity-40 skew-x-12 rotate-90"></span>
+            <div class="w-full h-full">
+                <h1 class="text-3xl dark:text-white">Datenschutz</h1>
+                <h1 class="text-xl dark:text-white">Datenschutzerklärung</h1>
+
+                <p class="dark:text-white pb-3">Vielen Dank, dass Sie unsere Dienste nutzen. Diese Datenschutzerklärung informiert Sie über die Art, den Umfang und den Zweck der Erhebung und Verwendung personenbezogener Daten durch BeeDigital, im Folgenden als "wir" oder "uns" bezeichnet, in Verbindung mit Ihrer Nutzung unserer Website und Dienstleistungen.</p>
+        
+                <h2 class="text-xl dark:text-white pb-3">Verantwortliche Stelle</h2>
+        
+                <p class="dark:text-white">Verantwortliche Stelle für die Verarbeitung Ihrer personenbezogenen Daten im Sinne der Datenschutzgesetze ist:</p>
+        
+                <p class="dark:text-white pb-3">
+                    BeeDigital<br>
+                    Edis Muminovic<br>
+                    Cordierstrasse 16<br>
+                    60326 Frankfurt am Main<br>
+                    Deutschland
+                </p>
+        
+                <h2 class="text-xl dark:text-white">Arten der verarbeiteten Daten</h2>
+        
+                <p class="dark:text-white pb-3">Wir erheben und verarbeiten verschiedene Arten von personenbezogenen Daten, die für die Bereitstellung unserer Dienstleistungen erforderlich sind. Dies kann folgende Daten umfassen:</p>
+                <ul class="dark:text-white pb-3">
+                    <li>Kontaktdaten (Name, E-Mail-Adresse, Telefonnummer)</li>
+                    <li>Unternehmensinformationen (Firmenname, Anschrift)</li>
+                    <li>Benutzerkonto-Daten (Benutzername, Passwort)</li>
+                    <li>Zahlungsinformationen (Kreditkarten- oder Bankkontodaten)</li>
+                    <li>Kommunikationsdaten (Korrespondenz, Anfragen, Feedback)</li>
+                </ul>
+        
+                <h2 class="text-xl dark:text-white">Zweck der Datenverarbeitung</h2>
+        
+                <p class="dark:text-white pb-3">Wir verarbeiten Ihre personenbezogenen Daten für folgende Zwecke:</p>
+                <ul class="dark:text-white pb-3">
+                    <li>Bereitstellung unserer Dienstleistungen, einschließlich Webdesign, Programmdesign, Coding und SEO, gemäß den vereinbarten Vertragsbedingungen</li>
+                    <li>Verwaltung und Unterstützung Ihres Benutzerkontos</li>
+                    <li>Bearbeitung von Anfragen und Kommunikation mit Ihnen</li>
+                    <li>Verarbeitung von Zahlungen und Rechnungsstellung</li>
+                    <li>Verbesserung und Personalisierung unserer Dienstleistungen</li>
+                </ul>
+        
+                <h2 class="text-xl dark:text-white">Rechtsgrundlage für die Datenverarbeitung</h2>
+        
+                <p class="dark:text-white pb-3">Die Verarbeitung Ihrer personenbezogenen Daten erfolgt aufgrund einer oder mehrerer der folgenden Rechtsgrundlagen:</p>
+                <ul class="dark:text-white pb-3">
+                    <li>Zur Erfüllung eines Vertrags, in dem Sie Vertragspartei sind oder in Vorbereitung auf einen Vertragsschluss mit Ihnen</li>
+                    <li>Zur Erfüllung einer rechtlichen Verpflichtung, der wir unterliegen</li>
+                    <li>Aufgrund Ihrer Einwilligung</li>
+                    <li>Zur Wahrung unserer berechtigten Interessen, sofern Ihre Interessen oder Grundrechte und Grundfreiheiten nicht überwiegen</li>
+                </ul>
+        
+                <h2 class="text-xl dark:text-white">Datenweitergabe an Dritte</h2>
+        
+                <p class="dark:text-white pb-3">Wir können Ihre personenbezogenen Daten an Dritte weitergeben, sofern dies zur Erfüllung unserer vertraglichen oder gesetzlichen Verpflichtungen erforderlich ist. Dies kann beinhalten:</p>
+                <ul class="dark:text-white pb-3">
+                    <li>Dienstleister, die uns bei der Erbringung unserer Dienstleistungen unterstützen (z. B. Hosting-Provider, Zahlungsabwickler)</li>
+                    <li>Geschäftspartner, mit denen wir gemeinsame Projekte durchführen</li>
+                    <li>Behörden oder Regierungsstellen, sofern dies gesetzlich vorgeschrieben ist</li>
+                </ul>
+        
+                <h2 class="text-xl dark:text-white">Speicherung und Sicherheit Ihrer Daten</h2>
+        
+                <p class="dark:text-white pb-3">Wir speichern Ihre personenbezogenen Daten nur so lange, wie es zur Erfüllung der Zwecke, für die sie erhoben wurden, erforderlich ist, es sei denn, es bestehen gesetzliche Aufbewahrungspflichten. Wir ergreifen angemessene technische und organisatorische Maßnahmen, um die Sicherheit Ihrer Daten zu gewährleisten und sie vor unbefugtem Zugriff, Verlust oder Missbrauch zu schützen.</p>
+        
+                <h2 class="text-xl dark:text-white">Ihre Rechte</h2>
+        
+                <p class="dark:text-white pb-3">Sie haben bestimmte Rechte in Bezug auf Ihre personenbezogenen Daten, einschließlich:</p>
+                <ul class="dark:text-white pb-3">
+                    <li>Das Recht auf Auskunft über die von uns verarbeiteten Daten und den Zweck der Verarbeitung</li>
+                    <li>Das Recht auf Berichtigung unrichtiger Daten oder Vervollständigung unvollständiger Daten</li>
+                    <li>Das Recht auf Löschung Ihrer Daten, sofern keine rechtlichen oder vertraglichen Verpflichtungen bestehen</li>
+                    <li>Das Recht, der Verarbeitung Ihrer Daten zu widersprechen, sofern keine zwingenden berechtigten Gründe vorliegen</li>
+                    <li>Das Recht auf Einschränkung der Verarbeitung Ihrer Daten in bestimmten Fällen</li>
+                    <li>Das Recht auf Datenübertragbarkeit, d.h. das Recht, Ihre Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten und an einen anderen Verantwortlichen zu übertragen</li>
+                </ul>
+        
+                <p class="dark:text-white pb-3">Um Ihre Rechte auszuüben oder weitere Informationen zum Datenschutz zu erhalten, kontaktieren Sie uns bitte unter den unten angegebenen Kontaktdaten.</p>
+        
+                <h2 class="text-xl dark:text-white">Aktualisierung der Datenschutzerklärung</h2>
+        
+                <p class="dark:text-white pb-3">Wir behalten uns das Recht vor, diese Datenschutzerklärung jederzeit zu ändern oder anzupassen. Die jeweils aktuelle Version wird auf unserer Website veröffentlicht. Bitte überprüfen Sie regelmäßig die Datenschutzerklärung, um über etwaige Änderungen informiert zu bleiben.</p>
+        
+                <h2 class="text-xl dark:text-white">Kontakt:</h2>
+        
+                <p class="dark:text-white pb-3">Bei Fragen oder Anliegen zum Datenschutz können Sie uns wie folgt kontaktieren:</p>
+        
+                <p class="dark:text-white pb-3">
+                    BeeDigital GmbH<br>
+                    Edis Muminovic<br>
+                    Cordierstrasse 16<br>
+                    60326 Frankfurt am Main<br>
+                    Deutschland<br>
+                    E-Mail: <a href="mailto:info@beedigital.com">info@beedigital.com</a>
+                </p>
+            </div>
+        </div>
+        </Container>
+	</main>
+</Layout>
