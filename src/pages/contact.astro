@@ -15,21 +15,21 @@ import Button from '../components/shared/Button.astro';
         <p class="pt-3 dark:text-white">You can contact us via form below or arrange a meeting directly by selecting the date and time from calendar below.</p>
             <div class="w-full h-max lg:flex xl:flex 2xl:flex py-5 mt-4 dark:text-white">
                 <div class="w-2/3 rounded-md bg-gradient-to-b  g-gradient-to-tr from-gray-50 to-gray-100 dark:from-gray-900  p-7 h-[700px] max-lg:w-full">
-                <form class="h-full dark:text-white">
+                <form   action="https://formspree.io/f/moqzoerl" method="POST" class="h-full dark:text-white">
                     <label class="text-xl">Name:</label>
-                    <input type="text" name="name" id="name" class="w-full h-[42px] bg-white rounded-md my-1 p-2 dark:text-black">
+                    <input type="text" name="name" id="name" class="w-full h-[42px] bg-white rounded-md my-1 p-2 dark:text-black" required>
                     <label class="text-xl dark:text-white">Email:</label>
                     <input type="email" name="email" id="email" class="w-full h-[42px] rounded-md  bg-whiterounded-md my-1 p-2 dark:text-black">
                     <label class="text-xl dark:text-white">Company:</label>
-                    <input type="email" name="company" id="company" class="w-full h-[42px] rounded-md bg-whiterounded-md my-1 p-2 dark:text-black">
+                    <input type="text" name="company" id="company" class="w-full h-[42px] rounded-md bg-whiterounded-md my-1 p-2 dark:text-black">
                     <label class="text-xl dark:text-white">Subject:</label>
-                    <input type="text" name="subject" id="subject" class="w-full h-[42px] rounded-md  bg-whiterounded-md my-1 p-2 dark:text-black">
+                    <input type="text" name="subject" id="subject" class="w-full h-[42px] rounded-md  bg-whiterounded-md my-1 p-2 dark:text-black" required>
                     <label class="text-xl dark:text-white">Message:</label>
                     <input type="text" name="message" id="message" class="w-full h-[150px]  rounded-md my-1 p-2 dark:text-black">
                     <label class="text-xl dark:text-white">Website Link:</label>
                     <input type="url" name="website" id="website" class="w-full h-[42px]  rounded-md my-1 p-2 dark:text-black">
                     <div class="w-full flex justify-end">
-                    <Button variant={"primary"} className={"mt-3 rounded-md px-16 h-10 flex justify-center items-center"}>
+                    <Button variant={"primary"} className={"mt-3 rounded-md px-16 h-10 flex justify-center items-center"} type="submit">
                         <span class="text-white relative z-[5]">Submit</span>
                     </Button>
                     </div>

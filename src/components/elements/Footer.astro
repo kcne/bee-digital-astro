@@ -5,77 +5,59 @@ import FooterNav from "../shared/FooterNav.astro";
 import Paragraph from "../shared/Paragraph.astro";
 const footerNav1 = [
     {
-        itemText:"Marketing",
-        itemLink:"#"
+        itemText:"Software",
+        itemLink:"/#services"
     },
     {
-        itemText:"Analylitics",
-        itemLink:"#"
+        itemText:"UI/UX",
+        itemLink:"/#services"
     },
     {
-        itemText:"Commerce",
-        itemLink:"#"
+        itemText:"Analytics",
+        itemLink:"/#services"
     },
     {
-        itemText:"Insights",
-        itemLink:"#"
+        itemText:"SEO",
+        itemLink:"/#services"
     }
 ]
 
-const footerSupport = [
-    {
-        itemText:"Pricing",
-        itemLink:"#"
-    },
-    {
-        itemText:"Guides",
-        itemLink:"#"
-    },
-    {
-        itemText:"FAQ",
-        itemLink:"#"
-    },
-    {
-        itemText:"Contact",
-        itemLink:"#"
-    }
-]
 
 const footerCompany = [
     {
         itemText:"About",
-        itemLink:"/about"
+        itemLink:"/#about-us"
     },
     {
-        itemText:"Blog",
-        itemLink:"#"
+        itemText:"Services",
+        itemLink:"/#services"
     },
     {
-        itemText:"Jobs",
-        itemLink:"#"
+        itemText:"Portofolio",
+        itemLink:"/portofolio"
     },
     {
-        itemText:"Parteners",
-        itemLink:"#"
+        itemText:"Partners",
+        itemLink:"/#partners"
     },
-    {
-        itemText:"Jobs",
-        itemLink:"#"
-    }
 ]
 const footerLegal = [
     {
-        itemText:"Claim",
-        itemLink:"/#"
+        itemText:"Datenshutz",
+        itemLink:"/datenshutz"
     },
     {
-        itemText:"Privacy",
-        itemLink:"#"
+        itemText:"Impressum",
+        itemLink:"/impressum"
     },
     {
-        itemText:"Terms",
-        itemLink:"#"
-    }
+        itemText:"Contact",
+        itemLink:"/contact"
+    },
+    {
+        itemText:"Blog",
+        itemLink:"https://blog-nextjs-sanity-kcne.vercel.app/"
+    },
 ]
 ---
 <div class="mt-16"></div>
@@ -164,12 +146,10 @@ const footerLegal = [
             <GroupFooterNav>
                 <FooterNav title={"Company"} navItems={footerCompany}/>
                 <FooterNav title={"Solutions"} navItems={footerNav1}/>
-            </GroupFooterNav>
-
-            <GroupFooterNav>
-                <FooterNav title={"Support"} navItems={footerSupport}/>
                 <FooterNav title={"Ressources"} navItems={footerLegal}/>
             </GroupFooterNav>
+
+
 
         </div>
     </Container>
@@ -180,7 +160,7 @@ const footerLegal = [
                     &copy; <span id="year">2023 -</span> BeeDigital. All right reserved
                 </div>
                 <div>
-                    Powered by <a href="https://github.com/johnkat-mj" target="_blank" class="font-semibold">BeeDigital Technology</a>
+                    Powered by <a href="#" target="_blank" class="font-semibold">BeeDigital Technology</a>
                 </div>
             </div>
         </Container>

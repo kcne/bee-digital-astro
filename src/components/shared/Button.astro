@@ -2,9 +2,10 @@
 export interface Props{
     className?:string,
     variant:"primary"|"secondary"
+    type?: "button" | "submit" | "reset";
 }
 
-const {className, variant} = Astro.props
+const {className, variant, type} = Astro.props
 
 const getThemeStyle = (variant:"primary"|"secondary")=>{
     if (variant === "primary") {
@@ -17,6 +18,6 @@ const getThemeStyle = (variant:"primary"|"secondary")=>{
 ---
 <button class={`px-6 py-3 rounded-full outline-none relative overflow-hidden border duration-300 ease-linear
                     after:absolute after:inset-x-0 after:aspect-square after:scale-0 after:opacity-70 after:origin-center after:duration-300 after:ease-linear after:rounded-full after:top-0 after:left-0 after:bg-[#172554]
-                    ${getThemeStyle(variant)} hover:after:opacity-100 hover:after:scale-[2.5] ${className}`}>
+                    ${getThemeStyle(variant)} hover:after:opacity-100 hover:after:scale-[2.5] ${className}`} type={`${type?type:"button"}`}>
     <slot/>
 </button>
