@@ -2,6 +2,7 @@
 import Button from "../shared/Button.astro";
 import Container from "../shared/Container.astro";
 import Paragraph from "../shared/Paragraph.astro";
+import {t} from "i18next";
 ---
 
 <section  id="cta" class="pb-20">
@@ -44,7 +45,7 @@ import Paragraph from "../shared/Paragraph.astro";
           Kick Start your <span class="text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600">Digital Journey</span> now. 
         </h1>
         <Paragraph className={"pt-10"}>
-          Supercharge your online presence and unleash your digital potential.
+          {t("cta.paragraph")}
         </Paragraph>
         <div class="mx-auto max-w-md sm:max-w-xl pt-10">
           <Button variant={"primary"}>

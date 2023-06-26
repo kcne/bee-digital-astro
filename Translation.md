@@ -1,3 +1,6 @@
+### 1. Generate a json array with string translations both in de and en
+
+```json
 {
     "site": {
       "title": "My awesome website!",
@@ -11,8 +14,21 @@
         "title":"Transforming your online presence into Digital Brilliance.",
         "subtitle":"We combine cutting-edge technology and creative finesse to craft captivating websites that truly reflect your brand's essence.",
         "button":"Get Started"
-    },
-    "cta":{
-      "paragraph":" Supercharge your online presence and unleash your digital potential. "
     }
   }
+  ```
+
+  ### 2. Use the {t} function to translate strings from i18-next
+
+```ts
+              <Paragraph className="mt-8">
+                We combine cutting-edge technology and creative finesse to craft captivating websites that truly reflect your brand's essence.
+            </Paragraph>
+```
+
+### 3. Every time we add new translations to the components generate new static routes
+
+```bash
+npx astro-i18next generate
+```
+
