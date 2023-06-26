@@ -20,11 +20,11 @@
 
   ### 2. Use the {t} function to translate strings from i18-next
 
-    ```tsx
+```
 <Paragraph className="mt-8">
           {t("cta.paragraph")}
 </Paragraph>
-    ```
+```
 
 ### 3. Every time we add new translations to the components generate new static routes
 
