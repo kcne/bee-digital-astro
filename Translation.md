@@ -28,7 +28,14 @@
 
 ### 3. Every time we add new translations to the components generate new static routes
 
-```bash
+```
 npx astro-i18next generate
 ```
 
+### 4. Git workflow
+
+```
+git add .
+git commit -m "feat: "add readme file"
+git push origin translation  
+```
