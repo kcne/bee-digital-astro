@@ -1,14 +1,14 @@
 ---
 import Container from "../shared/Container.astro";
 import Title from "../shared/Title.astro";
-
+import {t} from "i18next";
 ---
 
 <section id="partners">
     <Container className="space-y-8">
         <div class="text-center max-w-3xl mx-auto">
             <Title>
-                Trusted by companies like
+                {t("brands.title")}
             </Title>
         </div>
         <div class="flex justify-center flex-wrap gap-4">

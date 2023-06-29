@@ -13,6 +13,11 @@
         "button":"Get Started"
     },
     "cta":{
-      "paragraph":" Supercharge your online presence and unleash your digital potential. "
+      "paragraph":" Supercharge your online presence and unleash your digital potential. ",
+      "button":" Get In Touch "
+    },
+
+    "brands":{
+      "title":" Trusted by companies like "
     }
   }

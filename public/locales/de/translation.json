@@ -13,6 +13,11 @@
         "button":"Loslegen"
     },
     "cta":{
-      "paragraph":"Steigern Sie Ihre Online-Präsenz und entfesseln Sie Ihr digitales Potenzial."
+      "paragraph":"Steigern Sie Ihre Online-Präsenz und entfesseln Sie Ihr digitales Potenzial.",
+      "button":" In Kontakt kommen "
+    },
+
+    "brands":{
+      "title":"Unternehmen wie vertrauen darauf"
     }
   }
