@@ -1,5 +1,6 @@
 ---
 import Container from "../shared/Container.astro";
+import {t} from "i18next";
 ---
 
 <section class="relative mt-12 md:mt-16">
@@ -13,7 +14,7 @@ import Container from "../shared/Container.astro";
         >
           11+
         </h2>
-        <p class="mt-2 text-heading-3">Deployed solutions</p>
+        <p class="mt-2 text-heading-3">{t("bynumber.paragraph1")}</p>
       </div>
 
       <div class="text-center">
@@ -22,7 +23,7 @@ import Container from "../shared/Container.astro";
         >
           50+
         </h2>
-        <p class="mt-2 text-heading-3">Creative Projects</p>
+        <p class="mt-2 text-heading-3">{t("bynumber.paragraph2")}</p>
       </div>
 
       <div class="text-center">
@@ -31,7 +32,7 @@ import Container from "../shared/Container.astro";
         >
           100+
         </h2>
-        <p class="mt-2 text-heading-3">Satisfied Clients</p>
+        <p class="mt-2 text-heading-3">{t("bynumber.paragraph3")}</p>
       </div>
 
       <div class="text-center">
@@ -40,7 +41,7 @@ import Container from "../shared/Container.astro";
         >
           3+
         </h2>
-        <p class="mt-2 text-heading-3">Years</p>
+        <p class="mt-2 text-heading-3">{t("bynumber.paragraph4")}</p>
       </div>
     </div>
   </Container>

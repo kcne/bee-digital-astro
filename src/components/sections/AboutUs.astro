@@ -3,7 +3,7 @@ import Info from "../cards/Info.astro";
 import Container from "../shared/Container.astro";
 import Paragraph from "../shared/Paragraph.astro";
 import Title from "../shared/Title.astro";
-
+import {t} from "i18next";
 ---
 
 <section id="about-us">
@@ -21,10 +21,10 @@ import Title from "../shared/Title.astro";
         </div>
         <div class="flex-1 flex midmd:w-7/12 lg:w-1/2 flex-col">
             <Title>
-                About us
+                {t("aboutus.title")}
             </Title>
             <Paragraph className="mt-8">
-                Welcome to BeeDigital where we ignite digital success with captivating cutting edge solutions. Together, we'll create a visually stunning presence that amplifies your brand and drives remarkable results. <br>Get ready to stand out, make an impact, and thrive in the digital landscape with our innovative solutions.
+                {t("aboutus.paragraph")}
             </Paragraph>
             <div class="pt-8 grid grid-cols-2 items-center gap-4 max-w-3xl md:max-w-[none]">
                 <Info description="Transforming businesses through exceptional web experiences and innovative digital solutions." title="Mission">

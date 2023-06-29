@@ -19,5 +19,17 @@
 
     "brands":{
       "title":" Trusted by companies like "
+    },
+
+    "aboutus":{
+      "title":" About us ",
+      "paragraph":" Welcome to BeeDigital where we ignite digital success with captivating cutting edge solutions. Together, we'll create a visually stunning presence that amplifies your brand and drives remarkable results. <br/>Get ready to stand out, make an impact, and thrive in the digital landscape with our innovative solutions. "
+    },
+
+    "bynumber":{
+      "paragraph1":" Deployed solutions ",
+      "paragraph2":" Creative Projects ",
+      "paragraph3":" Satisfied Clients ",
+      "paragraph4":" Years "
     }
   }

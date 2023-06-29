@@ -19,5 +19,17 @@
 
     "brands":{
       "title":"Unternehmen wie vertrauen darauf"
+    },
+
+    "aboutus":{
+      "title":" Über uns ",
+      "paragraph":" Willkommen bei BeeDigital, wo wir mit faszinierenden, innovativen Lösungen den digitalen Erfolg vorantreiben. Gemeinsam schaffen wir einen visuell beeindruckenden Auftritt, der Ihre Marke stärkt und zu bemerkenswerten Ergebnissen führt. Machen Sie sich bereit, mit unseren innovativen Lösungen hervorzustechen, etwas zu bewirken und in der digitalen Landschaft erfolgreich zu sein. "
+    },
+
+    "bynumber":{
+      "paragraph1":" Bereitgestellte lösungen ",
+      "paragraph2":" Kreative projekte ",
+      "paragraph3":" Zufriedene Kunden ",
+      "paragraph4":" Jahre "
     }
   }
