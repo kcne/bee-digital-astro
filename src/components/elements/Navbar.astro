@@ -2,26 +2,28 @@
 import BtnLink from "../shared/BtnLink.astro";
 import Container from "../shared/Container.astro";
 import  Navitem from "../shared/Navitem.astro";
+import {t} from "i18next";
+
 const navItems = [
     {
         href:"/",
-        text:"Home"
+        text:t("navbar.text1")
     },
     {
         href:"/#services",
-        text:"Services"
+        text:t("navbar.text2")
     },
     {
         href:"/portofolio",
-        text:"Portofolio"
+        text:t("navbar.text3")
     },
     {
         href:"/#about-us",
-        text:"About Us"
+        text:t("navbar.text4")
     },
     {
         href:"/contact",
-        text:"Contact"
+        text:t("navbar.text5")
     },
 ]
 ---
@@ -54,7 +56,7 @@ const navItems = [
                 </ul>
 
                 <div class="lg:min-w-max flex items-center sm:w-max w-full pb-6 lg:pb-0 border-b border-box-bg lg:border-0 px-6 lg:px-0">
-                    <BtnLink text="Get Started" href="/contact" className="flex justify-center w-full sm:w-max" variant="primary"/>
+                    <BtnLink text={t("navbar.button")} href="/contact" className="flex justify-center w-full sm:w-max" variant="primary"/>
                 </div>
             </div>
 

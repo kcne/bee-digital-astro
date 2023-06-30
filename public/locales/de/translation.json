@@ -13,6 +13,9 @@
         "button":"Loslegen"
     },
     "cta":{
+      "title":"Starten Sie jetzt",
+      "title2":"Digitale Reise",
+      "title3":"ihre",
       "paragraph":"Steigern Sie Ihre Online-Präsenz und entfesseln Sie Ihr digitales Potenzial.",
       "button":" In Kontakt kommen "
     },
@@ -23,7 +26,11 @@
 
     "aboutus":{
       "title":" Über uns ",
-      "paragraph":" Willkommen bei BeeDigital, wo wir mit faszinierenden, innovativen Lösungen den digitalen Erfolg vorantreiben. Gemeinsam schaffen wir einen visuell beeindruckenden Auftritt, der Ihre Marke stärkt und zu bemerkenswerten Ergebnissen führt. Machen Sie sich bereit, mit unseren innovativen Lösungen hervorzustechen, etwas zu bewirken und in der digitalen Landschaft erfolgreich zu sein. "
+      "paragraph":" Willkommen bei BeeDigital, wo wir mit faszinierenden, innovativen Lösungen den digitalen Erfolg vorantreiben. Gemeinsam schaffen wir einen visuell beeindruckenden Auftritt, der Ihre Marke stärkt und zu bemerkenswerten Ergebnissen führt. Machen Sie sich bereit, mit unseren innovativen Lösungen hervorzustechen, etwas zu bewirken und in der digitalen Landschaft erfolgreich zu sein. ",
+      "paragraph1":"Mission",
+      "paragraph2":"Vision",
+      "description1":"Wir transformieren Unternehmen durch außergewöhnliche Web-Erlebnisse und innovative digitale Lösungen.",
+      "description2":"Eine führende Kraft bei der Gestaltung der digitalen Landschaft zu sein, Web-Erlebnisse zu revolutionieren und Unternehmen in die Lage zu versetzen, im digitalen Zeitalter erfolgreich zu sein."
     },
 
     "bynumber":{
@@ -31,5 +38,69 @@
       "paragraph2":" Kreative projekte ",
       "paragraph3":" Zufriedene Kunden ",
       "paragraph4":" Jahre "
+    },
+
+    "features":{
+
+      "title":" Wie treiben wir Ihren Erfolg voran? ",
+      "paragraph":" Bei BeeDigital setzen wir uns dafür ein, Ihren digitalen Erfolg zu stärken, indem wir die Leistungsfähigkeit kundenorientierter Funktionen und modernster Technologien nutzen. ",
+      "description-title1":" Blitzschnelle Webanwendungen ",
+      "description1":" Wir nutzen NextJS, um blitzschnelle Webanwendungen zu erstellen und Ihren Kunden ein nahtloses Surferlebnis mit verbesserter Leistung und kurzen Ladezeiten zu gewährleisten. ",
+      "description-title2":" Atemberaubende und konsistente Designs ",
+      "description2":" Mit Figma, unserem kollaborativen Designtool, erstellen wir visuell beeindruckende und pixelgenaue Designs, die zu Ihrer Markenidentität passen und ein einheitliches und einprägsames visuelles Erlebnis auf allen Plattformen gewährleisten. ",
+      "description-title3":" Verbesserte Online-Sichtbarkeit ",
+      "description3":" Unser Fachwissen in Suchmaschinenoptimierungstechniken (SEO) trägt dazu bei, Ihre Website für eine verbesserte Sichtbarkeit, organisches Traffic-Wachstum und höhere Suchmaschinen-Rankings zu optimieren und sicherzustellen, dass Ihre Marke die richtige Zielgruppe erreicht. "
+    },
+
+    "services":{
+
+      "title":" Was wir anbieten ",
+      "paragraph":" Entdecken Sie unser umfassendes Dienstleistungsangebot, das darauf ausgelegt ist, Ihre Marke zu stärken und bemerkenswerte Online-Erlebnisse zu schaffen. ",
+      "description-title1":" Web Entwicklung ",
+      "description1":" Unser Expertenteam aus Webentwicklern erstellt dynamische und reaktionsfähige Websites, die Benutzer ansprechen, Conversions fördern und Ihre einzigartige Markenidentität widerspiegeln. ",
+      "description-title2":" UI/UX Design ",
+      "description2":" Unsere UI/UX-Designexperten kombinieren Ästhetik und Benutzerfreundlichkeit, um visuell beeindruckende Schnittstellen zu erstellen, die ein nahtloses Benutzererlebnis bieten und einen bleibenden Eindruck hinterlassen. ",
+      "description-title3":" Geschäftsanalysen ",
+      "description3":" Wir nutzen die Kraft der Daten und bieten aufschlussreiche Analyselösungen, die Ihnen helfen, fundierte Entscheidungen zu treffen, die Leistung zu optimieren und das Geschäftswachstum voranzutreiben. ",
+      "description-title4":"E-Commerce-Entwicklung ",
+      "description4":" Wir sind auf die Entwicklung robuster und sicherer E-Commerce-Plattformen spezialisiert, die Ihr Online-Geschäft stärken, das Kundenerlebnis verbessern und den Umsatz steigern. ",
+      "description-title5":" Suchmaschinenoptimierung (SEO) ",
+      "description5":" Unsere SEO-Strategien erhöhen die Sichtbarkeit Ihrer Website, steigern den organischen Traffic und verbessern das Suchmaschinenranking, sodass Ihre Marke in der digitalen Landschaft hervorsticht. ",
+      "description-title6":" CMS Entwicklung ",
+      "description6":" Mit unseren maßgeschneiderten CMS-Lösungen können Sie Ihre Website-Inhalte mühelos verwalten und aktualisieren und so Flexibilität, Skalierbarkeit und effiziente Website-Wartung gewährleisten. "
+  
+    },
+
+    "navbar":{
+      "text1":" Heim ",
+      "text2":" Dienstleistungen ",
+      "text3":" Portfolio ",
+      "text4":" Über uns ",
+      "text5":" Kontakt ",
+      "button":" Loslegen "
+    },
+
+    "footer":{
+      
+      "itemText1":" Software ",
+      "itemText2":" UI/UX ",
+      "itemText3":" Analytik ",
+      "itemText4":" SEO ",
+      "itemText5":" Über ",
+      "itemText6":" Dienstleistungen ",
+      "itemText77":" Portofolio ",
+      "itemText8":" Partner ",
+      "itemText9":" Datenshutz ",
+      "itemText10":" Impressum ",
+      "itemText11":" Kontakt ",
+      "itemText12":" Blog ",
+      "company":" Unternehmen ",
+      "solutions":" Lösungen ",
+      "ressources":" Ressourcen ",
+      "paragraph1":" Steigern Sie Ihre digitale Präsenz mit maßgeschneiderten Lösungen, die inspirieren und stärken.",
+      "paragraph2":" BeeDigital. Alle Rechte vorbehalten ",
+      "paragraph3":" Bereitgestellt von ",
+      "paragraph4":" BeeDigital Technologie "
+      
     }
   }

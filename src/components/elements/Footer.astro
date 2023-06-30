@@ -3,21 +3,23 @@ import GroupFooterNav from "../blocks/GroupFooterNav.astro";
 import Container from "../shared/Container.astro";
 import FooterNav from "../shared/FooterNav.astro";
 import Paragraph from "../shared/Paragraph.astro";
+import {t} from "i18next";
+
 const footerNav1 = [
     {
-        itemText:"Software",
+        itemText:t("footer.itemText1"),
         itemLink:"/#services"
     },
     {
-        itemText:"UI/UX",
+        itemText:t("footer.itemText2"),
         itemLink:"/#services"
     },
     {
-        itemText:"Analytics",
+        itemText:t("footer.itemText3"),
         itemLink:"/#services"
     },
     {
-        itemText:"SEO",
+        itemText:t("footer.itemText4"),
         itemLink:"/#services"
     }
 ]
@@ -25,37 +27,37 @@ const footerNav1 = [
 
 const footerCompany = [
     {
-        itemText:"About",
+        itemText:t("footer.itemText5"),
         itemLink:"/#about-us"
     },
     {
-        itemText:"Services",
+        itemText:t("footer.itemText6"),
         itemLink:"/#services"
     },
     {
-        itemText:"Portofolio",
+        itemText:t("footer.itemText7"),
         itemLink:"/portofolio"
     },
     {
-        itemText:"Partners",
+        itemText:t("footer.itemText8"),
         itemLink:"/#partners"
     },
 ]
 const footerLegal = [
     {
-        itemText:"Datenshutz",
+        itemText:t("footer.itemText9"),
         itemLink:"/datenshutz"
     },
     {
-        itemText:"Impressum",
+        itemText:t("footer.itemText10"),
         itemLink:"/impressum"
     },
     {
-        itemText:"Contact",
+        itemText:t("footer.itemText11"),
         itemLink:"/contact"
     },
     {
-        itemText:"Blog",
+        itemText:t("footer.itemText12"),
         itemLink:"https://blog-nextjs-sanity-kcne.vercel.app/"
     },
 ]
@@ -107,7 +109,7 @@ const footerLegal = [
                         </div>
                     </a>
                     <Paragraph className={"mt-8"}>
-                        Elevating your digital presence with tailored solutions that inspire and empower.
+                        {t("footer.paragraph1")}
                     </Paragraph>
                 </div>
 
@@ -144,9 +146,9 @@ const footerLegal = [
             </div>
 
             <GroupFooterNav>
-                <FooterNav title={"Company"} navItems={footerCompany}/>
-                <FooterNav title={"Solutions"} navItems={footerNav1}/>
-                <FooterNav title={"Ressources"} navItems={footerLegal}/>
+                <FooterNav title={t("footer.company")} navItems={footerCompany}/>
+                <FooterNav title={t("footer.solutions")} navItems={footerNav1}/>
+                <FooterNav title={t("footer.ressources")} navItems={footerLegal}/>
             </GroupFooterNav>
 
 
@@ -157,10 +159,10 @@ const footerLegal = [
         <Container>
             <div class="flex justify-between items-center gap-6 md:text-lg text-heading-3">
                 <div>
-                    &copy; <span id="year">2023 -</span> BeeDigital. All right reserved
+                    &copy; <span id="year">2023 -</span> {t("footer.paragraph2")}
                 </div>
                 <div>
-                    Powered by <a href="#" target="_blank" class="font-semibold">BeeDigital Technology</a>
+                    {t("footer.paragraph3")} <a href="#" target="_blank" class="font-semibold">{t("footer.paragraph4")}</a>
                 </div>
             </div>
         </Container>

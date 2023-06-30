@@ -13,6 +13,9 @@
         "button":"Get Started"
     },
     "cta":{
+      "title":"Kick Start your",
+      "title2":"Digital Journey",
+      "title3":"now",
       "paragraph":" Supercharge your online presence and unleash your digital potential. ",
       "button":" Get In Touch "
     },
@@ -23,7 +26,11 @@
 
     "aboutus":{
       "title":" About us ",
-      "paragraph":" Welcome to BeeDigital where we ignite digital success with captivating cutting edge solutions. Together, we'll create a visually stunning presence that amplifies your brand and drives remarkable results. <br/>Get ready to stand out, make an impact, and thrive in the digital landscape with our innovative solutions. "
+      "paragraph":" Welcome to BeeDigital where we ignite digital success with captivating cutting edge solutions. Together, we'll create a visually stunning presence that amplifies your brand and drives remarkable results. Get ready to stand out, make an impact, and thrive in the digital landscape with our innovative solutions. ",
+      "paragraph1":"Mission",
+      "paragraph2":"Vision",
+      "description1":"Transforming businesses through exceptional web experiences and innovative digital solutions.",
+      "description2":"To be a leading force in shaping the digital landscape, revolutionizing web experiences, and empowering businesses to thrive in the digital era."
     },
 
     "bynumber":{
@@ -31,5 +38,70 @@
       "paragraph2":" Creative Projects ",
       "paragraph3":" Satisfied Clients ",
       "paragraph4":" Years "
+    },
+
+    "features":{
+
+      "title":" How do we drive your success? ",
+      "paragraph":" At BeeDigital, we are committed to empowering your digital success by harnessing the power of customer-centric features and cutting-edge technologies. ",
+      "description-title1":" Lightning-Fast Web Applications ",
+      "description1":" We utilize NextJS to create lightning-fast web applications, ensuring your customers have a seamless browsing experience with enhanced performance and quick load times. ",
+      "description-title2":" Stunning and Consistent Designs ",
+      "description2":" Using Figma, our collaborative design tool, we create visually stunning and pixel-perfect designs that align with your brand identity, ensuring a consistent and memorable visual experience across all platforms. ",
+      "description-title3":" Enhanced Online Visibility ",
+      "description3":" Our expertise in Search Engine Optimization (SEO) techniques helps optimize your website for improved visibility, organic traffic growth, and higher search engine rankings, ensuring your brand reaches the right audience. "
+    },
+
+    "services":{
+
+      "title":" What we offer ",
+      "paragraph":" Discover our comprehensive range of services designed to elevate your brand and drive remarkable online experiences. ",
+      "description-title1":" Web Development ",
+      "description1":" Our expert team of web developers creates dynamic and responsive websites that engage users, drive conversions, and reflect your unique brand identity. ",
+      "description-title2":" UI/UX Design ",
+      "description2":" Our UI/UX design experts combine aesthetics and usability to craft visually stunning interfaces that deliver seamless user experiences and leave a lasting impression. ",
+      "description-title3":" Business Analytics ",
+      "description3":" Harnessing the power of data, we provide insightful analytics solutions to help you make informed decisions, optimize performance, and drive business growth. ",
+      "description-title4":" E-commerce Development ",
+      "description4":" We specialize in developing robust and secure e-commerce platforms that empower your online business, enhance customer experience, and boost sales. ",
+      "description-title5":" Search Engine Optimization (SEO) ",
+      "description5":" Our SEO strategies increase your website's visibility, drive organic traffic, and improve search engine rankings, ensuring your brand stands out in the digital landscape. ",
+      "description-title6":" CMS Development ",
+      "description6":" With our customized CMS solutions, you can effortlessly manage and update your website content, ensuring flexibility, scalability, and efficient site maintenance. "
+  
+    },
+
+    "navbar":{
+      "text1":" Home ",
+      "text2":" Services ",
+      "text3":" Portfolio ",
+      "text4":" About Us ",
+      "text5":" Contact ",
+      "button":" Get Started "
+    },
+
+    "footer":{
+
+      "itemText1":" Software ",
+      "itemText2":" UI/UX ",
+      "itemText3":" Analytics ",
+      "itemText4":" SEO ",
+      "itemText5":" About ",
+      "itemText6":" Services ",
+      "itemText7":" Portofolio ",
+      "itemText8":" Partners ",
+      "itemText9":" Datenshutz ",
+      "itemText10":" Impressum ",
+      "itemText11":" Contact ",
+      "itemText12":" Blog ",
+      "company":" Company ",
+      "solutions":" Solutions ",
+      "ressources":" Ressources ",
+      "paragraph1":" Elevating your digital presence with tailored solutions that inspire and empower. ",
+      "paragraph2":" BeeDigital. All right reserved ",
+      "paragraph3":" Powered by ",
+      "paragraph4":" BeeDigital Technology "
+      
     }
+
   }

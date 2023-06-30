@@ -3,21 +3,21 @@ import Service from "../cards/Service.astro";
 import Container from "../shared/Container.astro";
 import Paragraph from "../shared/Paragraph.astro";
 import Title from "../shared/Title.astro";
-
+import {t} from "i18next";
 ---
 
 <section id="services">
     <Container className="space-y-10 md:sapce-y-12">
         <div class="text-center max-w-3xl mx-auto space-y-4">
             <Title>
-                What we offer
+                {t("services.title")}
             </Title>
             <Paragraph>
-                Discover our comprehensive range of services designed to elevate your brand and drive remarkable online experiences.
+                {t("services.paragraph")}
             </Paragraph>
         </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            <Service title="Web Development" description="Our expert team of web developers creates dynamic and responsive websites that engage users, drive conversions, and reflect your unique brand identity.">
+            <Service title={t("services.description-title1")} description={t("services.description1")}>
                 <span slot="icon">
                     <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M20.8241 3.36304C19.5213 2.05993 17.3165 1.85945 14.7109 2.7616C13.8089 3.06232 12.907 3.56352 12.005 4.06471C8.39723 1.95969 4.98988 1.55873 3.18598 3.36304C1.28187 5.16734 1.78295 8.57548 3.8875 12.1841C1.68273 15.8929 1.38209 19.3011 3.18598 21.0051C3.8875 21.807 4.98988 22.208 6.29269 22.208C7.99637 22.208 10.0007 21.5063 12.005 20.3035C14.0094 21.5063 16.0137 22.208 17.7174 22.208C19.0202 22.208 20.0223 21.8071 20.8241 21.1054C22.628 19.3011 22.2271 15.8929 20.1226 12.2843C22.3273 8.47524 22.628 5.0671 20.8241 3.36304ZM15.3122 4.66615C17.2163 3.96447 18.6193 4.06471 19.421 4.76639C20.323 5.66854 20.1226 7.8738 18.92 10.2795C18.2184 9.37739 17.5169 8.47524 16.615 7.57308C15.713 6.67093 14.8111 5.96926 13.9091 5.26758C14.4102 5.0671 14.9113 4.76639 15.3122 4.66615ZM4.58901 19.6018C3.68706 18.6996 3.8875 16.4944 5.09009 14.0886C5.79161 14.9908 6.49312 15.8929 7.39507 16.7951C8.29702 17.6972 9.19897 18.4992 10.1009 19.1006C7.5955 20.4037 5.49096 20.5039 4.58901 19.6018ZM19.421 19.6018C18.5191 20.5039 16.4145 20.3035 13.8089 19.1006C14.7109 18.3989 15.6128 17.597 16.5148 16.7951C16.9156 16.3941 17.3165 15.9932 17.6171 15.5922C18.018 15.1913 17.9178 14.5898 17.5169 14.1889C17.1161 13.7879 16.5148 13.8882 16.1139 14.2891C15.8133 14.6901 15.4124 14.9908 15.1117 15.3917C14.1096 16.3941 13.0072 17.2963 12.005 17.998C11.0029 17.2963 9.90048 16.3941 8.89832 15.3917C4.48879 10.9812 3.08576 6.26997 4.58901 4.76639C4.88966 4.36543 5.49096 4.16495 6.29269 4.16495C7.29485 4.16495 8.69788 4.56591 10.1009 5.26758C9.19897 5.96926 8.29702 6.77117 7.39507 7.57308C6.99421 8.07428 6.49312 8.57548 6.09226 9.07667C5.69139 9.47763 5.79161 10.0791 6.19247 10.48C6.59334 10.881 7.29485 10.7807 7.5955 10.3798C7.99637 9.87858 8.39724 9.47763 8.7981 9.07667C9.80027 8.07428 10.9026 7.17213 11.9048 6.47045C12.907 7.17213 14.0094 8.07428 15.1117 9.07667C19.5213 13.387 20.9243 18.0982 19.421 19.6018Z" fill="currentColor"/>
@@ -25,7 +25,7 @@ import Title from "../shared/Title.astro";
                         </svg>
                 </span>
             </Service>
-            <Service title="UI/UX Design" description="Our UI/UX design experts combine aesthetics and usability to craft visually stunning interfaces that deliver seamless user experiences and leave a lasting impression.">
+            <Service title={t("services.description-title2")}  description={t("services.description2")} >
                 <span slot="icon">
                     <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M13 14.612V10.012V5.31201V4.41201C13.3 4.41201 13.5 4.51201 13.8 4.51201C14.3 4.61201 14.8 4.31201 15 3.71201C15.2 3.11201 14.8 2.61201 14.2 2.51201C13.5 2.41201 12.7 2.31201 12 2.31201C6.5 2.31201 2 6.81201 2 12.312C2 17.812 6.5 22.312 12 22.312C12.7 22.312 13.5 22.212 14.2 22.112C14.7 22.012 15.1 21.412 15 20.912C14.9 20.412 14.3 20.012 13.8 20.112C13.5 20.212 13.3 20.212 13 20.212V19.312V14.612ZM4 12.312C4 8.21201 7.1 4.91201 11 4.41201V5.31201V10.012V14.712V19.312V20.212C7.1 19.712 4 16.412 4 12.312Z" fill="currentColor"/>
@@ -35,7 +35,7 @@ import Title from "../shared/Title.astro";
                     </svg>   
                 </span>                    
             </Service>
-            <Service title="Buisness Analytics" description="Harnessing the power of data, we provide insightful analytics solutions to help you make informed decisions, optimize performance, and drive business growth.">
+            <Service title={t("services.description-title3")} description={t("services.description3")}>
                 <span slot="icon">
                     <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M20.1176 18.4549H18C17.6471 17.1692 16.5 16.312 15.0882 16.312C13.4118 16.312 12 17.6834 12 19.312C12 20.9406 13.4118 22.312 15.0882 22.312C16.5 22.312 17.6471 21.4549 18 20.1692H20.1176C20.6471 20.1692 21 19.7406 21 19.312C21 18.7977 20.6471 18.4549 20.1176 18.4549ZM15.0882 20.5977C14.3824 20.5977 13.7647 19.9977 13.7647 19.312C13.7647 18.6263 14.3824 18.0263 15.0882 18.0263C15.7941 18.0263 16.4118 18.6263 16.4118 19.312C16.4118 19.9977 15.7941 20.5977 15.0882 20.5977Z" fill="currentColor"/>
@@ -47,14 +47,14 @@ import Title from "../shared/Title.astro";
                     </svg>                                     
                 </span>
             </Service>
-            <Service title="E-commerce Development" description="We specialize in developing robust and secure e-commerce platforms that empower your online business, enhance customer experience, and boost sales.">
+            <Service title={t("services.description-title4")} description={t("services.description4")}>
                 <span slot="icon">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M21.8 6.1L21.3 4.7C21 3.7 20 3 19 3H5C4 3 3 3.7 2.7 4.7L2.2 6.1C1.8 7.4 2 8.7 2.8 9.8C3 10.2 3.4 10.5 3.7 10.8V17.2C3.7 19.4 5.5 21.1 7.6 21.1H9.8C10.4 21.1 10.8 20.7 10.8 20.1V17.2C10.8 16.5 11.3 16 12 16C12.7 16 13.2 16.5 13.2 17.2V20.1C13.2 20.7 13.6 21.1 14.2 21.1H16.4C18.6 21.1 20.3 19.3 20.3 17.2V14C20.3 13.4 19.9 13 19.3 13C18.7 13 18.3 13.4 18.3 14V17.1C18.3 18.2 17.4 19 16.4 19H15.2V17.1C15.2 15.3 13.8 13.9 12 13.9C10.2 13.9 8.8 15.3 8.8 17.1V19H7.6C6.5 19 5.7 18.1 5.7 17.1V11.5C5.9 11.5 6 11.5 6.2 11.5C7.3 11.5 8.4 11 9.1 10.2C9.8 11.1 10.9 11.6 12 11.6C13.1 11.6 14.2 11.1 14.9 10.3C15.6 11.1 16.7 11.6 17.8 11.6C19.2 11.6 20.4 11 21.2 9.9C22 8.7 22.2 7.4 21.8 6.1ZM19.6 8.7C19.2 9.3 18.6 9.6 17.9 9.6C17 9.6 16.2 9 16 8.2C15.9 7.7 15.4 7.4 14.9 7.4C14.4 7.4 14 7.7 13.8 8.2C13.6 9 12.8 9.6 12 9.6C11.2 9.6 10.4 9 10.2 8.2C10 7.7 9.6 7.4 9.1 7.4C8.6 7.4 8.1 7.7 8 8.2C7.8 9 7 9.6 6.2 9.6C5.5 9.6 4.9 9.3 4.4 8.7C4 8.1 3.9 7.4 4.1 6.7L4.6 5.3C4.7 5.1 4.8 5 5 5H19C19.2 5 19.4 5.1 19.4 5.3L19.9 6.7C20.1 7.4 20 8.1 19.6 8.7Z" fill="currentColor"/>
                     </svg>                    
                 </span>
             </Service>
-            <Service title="Search Engine Optimization (SEO)" description="Our SEO strategies increase your website's visibility, drive organic traffic, and improve search engine rankings, ensuring your brand stands out in the digital landscape.">
+            <Service title={t("services.description-title5")} description={t("services.description5")}>
                 <span slot="icon">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19.8503 7.38123C19.339 4.32512 16.7825 1.76194 13.6124 1.17043C11.2604 0.67751 8.80621 1.26901 6.96553 2.74778C5.0226 4.22654 4 6.39539 4 8.66283C4 10.7331 4.81808 12.6062 6.35197 14.085C7.06779 14.775 7.47683 15.5637 7.68135 16.451L7.88587 17.7326C8.19265 19.0142 9.3175 20 10.7491 20H13.2034C14.5327 20 15.7599 19.0142 16.0666 17.7326L16.3734 16.451C16.5779 15.5637 16.987 14.775 17.7028 14.085C19.5435 12.3104 20.3616 9.84583 19.8503 7.38123ZM16.2712 12.7048C15.2486 13.6906 14.635 14.8736 14.3282 16.0566L14.0215 17.3382C14.0215 17.7326 13.6124 18.0283 13.2034 18.0283H10.7491C10.3401 18.0283 10.0333 17.7326 9.93106 17.3382L9.62428 16.0566C9.41976 14.775 8.70395 13.6906 7.68135 12.7048C6.65875 11.6203 6.04519 10.2402 6.04519 8.66283C6.04519 6.9869 6.86327 5.31096 8.19265 4.22654C9.3175 3.43787 10.6469 2.94495 11.9763 2.94495C12.3853 2.94495 12.7943 2.94494 13.2034 3.04353C15.5553 3.53645 17.396 5.40955 17.8051 7.67698C18.2141 9.55008 17.6005 11.4232 16.2712 12.7048Z" fill="currentColor"/>
@@ -62,7 +62,7 @@ import Title from "../shared/Title.astro";
                     </svg>   
                 </span>
             </Service>
-            <Service title="CMS Development" description="With our customized CMS solutions, you can effortlessly manage and update your website content, ensuring flexibility, scalability, and efficient site maintenance.">
+            <Service title={t("services.description-title6")} description={t("services.description6")}>
                 <span slot="icon">
                     <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M3.1 9.41201L10 12.512C10.6 12.812 11.3 12.912 12 12.912C12.7 12.912 13.3 12.812 14 12.512L20.9 9.41201C21.6 9.11201 22 8.41201 22 7.61201C22 6.81201 21.6 6.21201 20.9 5.81201L14 2.71201C12.7 2.11201 11.3 2.11201 10.1 2.71201L3.1 5.91201C2.4 6.21201 2 6.91201 2 7.61201C2 8.41201 2.4 9.11201 3.1 9.41201ZM10.9 4.51201C11.6 4.21201 12.5 4.21201 13.2 4.51201L20 7.61201L13.2 10.712C12.5 11.012 11.6 11.012 10.9 10.712L4.1 7.61201L10.9 4.51201Z" fill="currentColor"/>

@@ -2,7 +2,7 @@
 import Container from "../shared/Container.astro";
 import Paragraph from "../shared/Paragraph.astro";
 import Title from "../shared/Title.astro";
-
+import {t} from "i18next";
 ---
 
 <section id="features">
@@ -10,10 +10,10 @@ import Title from "../shared/Title.astro";
         
         <div class="flex-1 flex midmd:w-7/12 lg:w-1/2 flex-col">
             <Title>
-                How do we drive your success?
+                {t("features.title")}
             </Title>
             <Paragraph className="mt-8">
-                At BeeDigital, we are committed to empowering your digital success by harnessing the power of customer-centric features and cutting-edge technologies.
+                {t("features.paragraph")}
             </Paragraph>
             <ul class="mt-8 space-y-4 text-heading-3 font-medium">
                 <li class="border-gray-300 border rounded-md p-3 flex items-start">
@@ -24,10 +24,10 @@ import Title from "../shared/Title.astro";
                         </span>
                         <span>
                             <span class=" font-bold">
-                                Lightning-Fast Web Applications
+                                {t("features.description-title1")}
                             </span>
                         : <br> 
-                        We utilize NextJS to create lightning-fast web applications, ensuring your customers have a seamless browsing experience with enhanced performance and quick load times.
+                        {t("features.description1")}
                         </span>
                 </li>
                 <li class="border-gray-300 border rounded-md p-3 flex items-start">
@@ -41,10 +41,10 @@ import Title from "../shared/Title.astro";
                     </span>
                         <span>
                             <span class=" font-bold">
-                                Stunning and Consistent Designs
+                                {t("features.description-title2")}
                             </span>
                         : <br> 
-                        Using Figma, our collaborative design tool, we create visually stunning and pixel-perfect designs that align with your brand identity, ensuring a consistent and memorable visual experience across all platforms.                        </span>
+                        {t("features.description2")}                        </span>
                 </li>
                 <li class="border-gray-300 border rounded-md p-3 flex items-start">
                     <span class="font-bold rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center pb-2">
@@ -56,10 +56,10 @@ import Title from "../shared/Title.astro";
                     </span>
                         <span>
                             <span class=" font-bold">
-                                Enhanced Online Visibility
+                                {t("features.description-title3")}
                             </span>
                         : <br> 
-                        Our expertise in Search Engine Optimization (SEO) techniques helps optimize your website for improved visibility, organic traffic growth, and higher search engine rankings, ensuring your brand reaches the right audience.
+                        {t("features.description3")}
                         </span>
                 </li>
                 
